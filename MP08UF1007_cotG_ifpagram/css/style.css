@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 166px;
+
+}
+
+nav {
+    height: 180px;
+
+}
+
+.contenidor {
+    width: 1716px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.entrada {
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    float: left;
+}
+
+img {
+    width: 536px;
+    height: 536px;
+}
+
+.reaccions {
+    height: 84px;
+}
+
+.cercle {
+    width: 80px;
+    height: 80px;
+    background-color: maroon;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 28px;
+    padding: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 5px orange;
+
+    background-image: url(../img/raphinha.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    opacity: 80%;
+    float: left;
+}
+
+.cercle:first-child::after {
+    content:"+";
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 50%;
+    color: white;
+    font-size: 32px;
+    border: solid 3px white;
+    position: relative;
+    top: 60px;
+    left: 60px;
+
+}
+
+.cercle:hover {
+    opacity: 100%;
+}
+
+/*________________Elements Article_______________*/
+
+.fotoautor {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 11px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 5px orange;
+
+    background-image: url(../img/raphinha.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+
+}
+
+.autor {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.moment {
+    width: 268px;
+    color: gainsboro;
+    font-size: 20px;
+}
+
+.esquerra {
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+
+.dreta {
+    width: 50%;
+    margin: 0;
+    float: right;
+
+}
+
+.comentari {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    float: left;
+}
+
+.like {
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+
+.mes{
+    height: 35px;
+    width: 35px;
+    float: left;
+    line-height: 30px;
+    font-weight: 700;
+
+}
+
+/*________________Elements Header_______________*/
+
+.home {
+    width: 208px;
+    height: 39px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url(../img/ifpagram_09.gif);
+    margin: 50px 0 0;
+    display: inline-block;
+}
+
+.menu {
+    width: 290px;
+    height: 39px;
+    margin: 50px 500px 0 500px;
+    display: inline-block;
+}
+
+.menu li {
+    width: 32px;
+    height: 32px;
+    margin: 5px 8px;
+    display: inline-block;
+    background-image: url(../img/ifpagram_11.gif);
+}
+
+.menu .inici {
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+}
+
+.menu .cerca {
+    background-position: -82px 0px;
+    background-repeat: no-repeat;
+}
+
+.menu .reels {
+    background-position: -165px 0px;
+    background-repeat: no-repeat;
+}
+
+.menu .favorits {
+    background-position: -250px 0px;
+    background-repeat: no-repeat;
+}
+
+.compartir {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+}
+
+.perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 35px 5px;
+    padding: 11px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 5px rgb(0, 140, 255);
+
+    background-image: url(../img/Foto-de-Perfil.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: right;
+}

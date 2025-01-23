@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <title>Calendari</title>
+        <style>
+            body {
+                background-color: rgb(173, 217, 255);
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-align: center;
+            }
+            
+            h1 {
+                
+            }
+            
+            table {
+                color: rgb(0, 0, 0);
+                background-color: aquamarine;
+                text-align: center;
+                width: 800px;
+                margin: auto
+                
+            }
+
+            th {
+                color: white;
+                background-color: black;
+            }
+
+            .mp07 {
+                background-color: rgb(222, 91, 26);
+            }
+
+            .mp07:hover {
+                background-color:  yellow;
+            }
+
+            .mp08 {
+                background-color: darkgoldenrod;
+            }
+
+            .mp08:hover {
+                background-color: greenyellow;
+            }
+
+            .mp09 {
+                background-color: rgb(129, 201, 91);
+            }
+
+            .mp09:hover {
+                background-color: blueviolet;
+            }
+
+            .TUT {
+                background-color: thistle;
+            }
+
+            .TUT:hover{
+                background-color: chocolate;
+            }
+
+            .PATI {
+                background-color: darksalmon;
+            }
+
+            .PATI:hover {
+                background-color: hotpink;
+            }
+
+            /* Com combinar etiquetes */
+
+            .mp07, .mp08, .mp09, .tut {
+                color: white;
+            }
+
+            .mp07:hover, .mp08:hover, .mp09:hover, .TUT:hover {
+                background-color: white;
+                color: black;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Horari</h1>
+
+        <table cellspacing="7" width="1000">
+            <tr>
+                <th width="150"></th>
+                <th width="150">Dilluns</th>
+                <th width="150">Dimarts</th>
+                <th width="150">Dimecres</th>
+                <th width="150">Dijous</th>
+                <th width="150">Divendres</th>
+            </tr>
+            <tr>
+                <td height="25">15:30-16:00</td>
+                <td rowspan="5" class="mp07">MP07</td>
+                <td></td>
+                <td></td>
+                <td rowspan="5" class="mp07">MP07</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td height="25">16:00-16:30</td>
+                <td rowspan="2" class="mp09">MP09</td>
+                <td></td>
+                <td rowspan="4" class="mp08">MP08</td>
+            </tr>
+            <tr>
+                <td height="25">16:30-17:00</td>
+                <td rowspan="3" class="mp08">MP08</td>
+            </tr>
+            <tr>
+                <td height="25">17:00-17:30</td>
+                <td rowspan="2" class="TUT">TUT</td>
+            </tr>
+            <tr>
+                <td height="25">17:30-18:00</td>
+            </tr>
+            <tr>
+                <td height="25">18:00-18:30</td>
+                <td colspan="5" class="PATI">PATI</td>
+            </tr>
+            <tr>
+                <td height="25">18:30-19:00</td>
+                <td rowspan="4" class="mp09">MP09</td>
+                <td rowspan="4" class="mp09">MP09</td>
+                <td rowspan="5" class="mp08">MP08</td>
+                <td rowspan="4" class="mp08">MP08</td>
+                <td rowspan="4" class="mp08">MP08</td>
+            </tr>
+            <tr>
+                <td height="25">19:00-19:30</td>
+            </tr>
+            <tr>
+                <td height="25">19:30-20:00</td>
+            </tr>
+            <tr>
+                <td height="25">20:00-20:30</td>
+            </tr>
+            <tr>
+                <td height="25">20:30-21:00</td>
+            </tr>
+        </table>
+    </body>
+    
+</html>
