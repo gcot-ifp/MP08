@@ -183,6 +183,7 @@ input {
 }
 
 input[type=range] {
+    appearance: none;
     -webkit-appearance:none;
     background: transparent;
 }
@@ -208,6 +209,7 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 
 input[type=checkbox]{
+    appearance: none;
     -webkit-appearance: none;
     width: 20px;
     height: 12px;
@@ -227,6 +229,7 @@ input[type=checkbox]:before{
 }
 
 input[type=checkbox]:checked{
+    appearance: none;
     -webkit-appearance: none;
     width: 20px;
     height: 12px;
@@ -238,6 +241,13 @@ input[type=checkbox]:checked{
 input[type=checkbox]:checked:before{
     position: relative;
     left: 8px;
+}
+
+@media screen and (min-width: 360px) and (max-width:480px) {
+    body {
+      height: 130vh;
+      overflow-x: hidden; 
+    }
 }
 
 

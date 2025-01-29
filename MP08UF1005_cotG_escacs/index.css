@@ -72,3 +72,10 @@
         margin: 0 auto;
         box-shadow: 10px 10px 10px grey;
     }
+
+    @media screen and (min-width: 360px) and (max-width:480px) {
+        body {
+          height: 130vh;
+          overflow-x: hidden; 
+        }
+    }
