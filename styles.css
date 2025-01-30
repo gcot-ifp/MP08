@@ -1,11 +1,11 @@
-/* Reset básico */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Estilos generales */
+  /* Estils generals */
   body {
     font-family: Arial, sans-serif;
     background: linear-gradient(15deg, #142850, #14365f, #13476f, #125d80, #107792, #0d96a5, #09b8b4, #04ccb1);
@@ -18,7 +18,7 @@
     overflow-x: hidden;
   }
   
-  /* Contenedor principal */
+  /* Contenidor principal */
   .container {
     text-align: center;
     background: white;
@@ -50,7 +50,7 @@
     margin-bottom: 20px;
   }
   
-  /* Enlaces */
+  /* Enllaços */
   .links {
     display: flex;
     flex-direction: column;
@@ -73,7 +73,7 @@
     transform: scale(1.05);
   }
   
-  /* Iconos sociales */
+  /* Icones socials */
   .social-links {
     display: flex;
     justify-content: center;
@@ -94,6 +94,7 @@
     transform: scale(1.1);
   }
 
+  /* Responsive */
   @media screen and (min-width: 360px) and (max-width:480px) {
     body {
       height: 130vh; 
